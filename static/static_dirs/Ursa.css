@@ -1,0 +1,12 @@
+body {
+    background-color: #609ab6;
+    text-align: center;
+}
+
+.photo {
+	display: inline-block;
+}
+
+.photo_item img {
+	width: 100%;
+}

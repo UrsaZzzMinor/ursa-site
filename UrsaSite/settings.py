@@ -121,3 +121,19 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+#STATIC_ROOT = 'E:/projects/UrsaSite/static/static_root/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static', 'static_root')
+
+STATICFILES_DIRS =(
+    os.path.join(BASE_DIR, 'static', 'static_dirs'),
+   # 'E:/projects/UrsaSite/static/static_root/',
+   # 'E:/projects/UrsaSite/images/',
+)
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static', 'media')
+
+MEDIA_URL = '/media/'
+
+
+
+

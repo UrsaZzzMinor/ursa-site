@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from .views import show_about as a, show_gallery as g, show_photo as p
 
 urlpatterns = [
+    url(r'^$', a),
+    url(r'^gallery$', g),
+    url(r'^gallery/(?P<name>\w+)/$', p),
     url(r'^admin/', admin.site.urls),
 ]
