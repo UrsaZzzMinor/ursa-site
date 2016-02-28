@@ -4,26 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <title>Gallery</title>
-    <link href="{% static 'Ursa.css' %}" rel="stylesheet">
+    <link href="{% static 'Ursa_Gallery.css' %}" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div><a href="/">About</a></div>
-        <div><a href="/gallery">Gallery</a></div>
-    </nav>
-    <h1>Gallery</h1>
-    <!--
-    <div>
-        <a href="/gallery/1/"> <img src="{% static 'img/1.jpg' %}" width="200" height="150"></a>
-        <a href="/gallery/2"><img src="{% static 'img/2.jpg' %}" width="200" height="150"></a>
-        <a href="/gallery/3"><img src="{% static 'img/3.jpg' %}" width="200" height="150"></a>
-    </div>
-    -->
-{% for b in a%}
-    <div class="photo">
-        <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg" width="200" height="150"></a>
-    </div>
-{% endfor %}
-
+    <div class = "container">
+        <div class = "header">
+            <h1>Gallery!!!</h1>
+            <nav>
+                <div class = "header_in"><a href="/">About</a></div>
+                <div class = "header_in"><a href="/gallery">Gallery</a></div>
+            </nav>
+        </div>
+        <!--
+        <div>
+            <a href="/gallery/1/"> <img src="{% static 'img/1.jpg' %}" width="200" height="150"></a>
+            <a href="/gallery/2"><img src="{% static 'img/2.jpg' %}" width="200" height="150"></a>
+            <a href="/gallery/3"><img src="{% static 'img/3.jpg' %}" width="200" height="150"></a>
+        </div>
+        -->
+        <div class = "content">
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+            {% for b in a%}
+                <div class="photo">
+                    <a href="/gallery/{{b}}/"> <img src="/static/img/{{b}}.jpg"></a>
+                </div>
+            {% endfor %}
+        </div>
+        </div>
+    <div class = "footer"></div>
 </body>
 </html>

@@ -1,0 +1,73 @@
+body {
+    
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	height: 100px;
+}
+
+.content {
+	position: relative;
+	top: 100px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	height: 100px;
+}
+
+.content_img img {
+	float: left;
+	width: 40%;
+	margin-right: 10px;
+}
+
+.photo {
+	display: inline-block;
+}
+
+.photo_item img {
+	width: 100%;
+}
+
+
+.h1 {
+	font-size: 25px;
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 30px;
+
+}
+
+.header_in {
+	display: inline-block;
+}
+
+nav {
+	float: right;
+	margin-right: 40px;
+	margin-top: 40px;
+
+}
+
+.content_text1, .content_text2 {
+	width: 100%;
+	font-size: 20px;
+} 
+
+.content_text3 {
+	width: 100%;
+	font-size: 20px;
+	clear: both;
+	margin-top: 50px;
+}
+

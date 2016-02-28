@@ -1,0 +1,45 @@
+.header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	height: 100px;
+}
+
+.h1 {
+	font-size: 25px;
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 30px;
+
+}
+
+.header_in {
+	display: inline-block;
+}
+
+nav {
+	float: right;
+	margin-right: 40px;
+	margin-top: 40px;
+
+.content {
+	position: relative;
+	top: 100px;
+}
+
+.photo {
+	display: inline-block;
+	width: 200px;
+	height: 150px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	height: 100px;
+}
